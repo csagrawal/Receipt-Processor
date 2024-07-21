@@ -1,0 +1,60 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+*.test
+
+# Output of the go coverage tool
+*.cov
+
+# Test binaries
+*.test
+
+# Build directories
+/bin/
+/obj/
+/out/
+/dist/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go dependencies
+/vendor/
+
+# Dependency directories
+Godeps/
+Gopkg.lock
+Gopkg.toml
+
+# Editor specific files
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (IntelliJ IDEA, PyCharm, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+
+# Docker files
+.dockerignore
+docker-compose.override.yml
