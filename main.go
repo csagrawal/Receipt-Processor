@@ -10,14 +10,10 @@ func init() {
 	initializers.LoadEnvVariables()
 }
 
-func testServer(c *gin.Context) {
-	c.JSON(200, gin.H{
-		"message": "Hello, World!",
-	})
-}
-
 func main() {
 	router := gin.Default()
-	router.GET("/", testServer)
+	router.POST("/receipts/process", ProcessReceipt)
+	router.GET("/receipts/:id/points", GetPoints)
+
 	router.Run()
 }
