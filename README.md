@@ -7,8 +7,8 @@ GET : for retrieving the points associated with a specific receipt ID.
 
 ## Prerequisites
 
-Go 
-Git
+* Go 
+* Git
 
 ## Installation
 
